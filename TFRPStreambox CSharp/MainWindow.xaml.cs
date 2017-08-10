@@ -451,11 +451,7 @@ namespace TFRPStreambox_CSharp
 
             Rootobject _1GUnit1r = JsonConvert.DeserializeObject<Rootobject>(_1Gunit1json);
             Console.WriteLine(_1GUnit1r.stream);
-            if (_1GUnit1r.stream == null)
-            {
-                _1GUnit1.Background = Brushes.Red;
-            }
-            else
+            if (_1GUnit1r.stream != null && _1GUnit1r.stream.game == "Grand Theft Auto V")
             {
                 _1GUnit1.Background = Brushes.LightGreen;
             }
@@ -466,11 +462,7 @@ namespace TFRPStreambox_CSharp
 
             Rootobject abdulhdr = JsonConvert.DeserializeObject<Rootobject>(abdulhdjson);
             Console.WriteLine(abdulhdr.stream);
-            if (abdulhdr.stream == null)
-            {
-                AbdulHD.Background = Brushes.Red;
-            }
-            else
+            if (abdulhdr.stream != null && abdulhdr.stream.game == "Grand Theft Auto V")
             {
                 AbdulHD.Background = Brushes.LightGreen;
             }
@@ -481,11 +473,7 @@ namespace TFRPStreambox_CSharp
 
             Rootobject agentnorthr = JsonConvert.DeserializeObject<Rootobject>(agentnorthjson);
             Console.WriteLine(agentnorthr.stream);
-            if (agentnorthr.stream == null)
-            {
-                AgentNorth.Background = Brushes.Red;
-            }
-            else
+            if (agentnorthr.stream != null && agentnorthr.stream.game == "Grand Theft Auto V")
             {
                 AgentNorth.Background = Brushes.LightGreen;
             }
@@ -496,11 +484,7 @@ namespace TFRPStreambox_CSharp
 
             Rootobject alexusnightingaler = JsonConvert.DeserializeObject<Rootobject>(alexusnightingalejson);
             Console.WriteLine(alexusnightingaler.stream);
-            if (alexusnightingaler.stream == null)
-            {
-                alexusnightingale.Background = Brushes.Red;
-            }
-            else
+            if (alexusnightingaler.stream != null && alexusnightingaler.stream.game == "Grand Theft Auto V")
             {
                 alexusnightingale.Background = Brushes.LightGreen;
             }
@@ -511,11 +495,7 @@ namespace TFRPStreambox_CSharp
 
             Rootobject andyr = JsonConvert.DeserializeObject<Rootobject>(andyjson);
             Console.WriteLine(andyr.stream);
-            if (andyr.stream == null)
-            {
-                AndyMilonakis.Background = Brushes.Red;
-            }
-            else
+            if (andyr.stream != null && andyr.stream.game == "Grand Theft Auto V")
             {
                 AndyMilonakis.Background = Brushes.LightGreen;
             }
@@ -526,11 +506,7 @@ namespace TFRPStreambox_CSharp
 
             Rootobject antr = JsonConvert.DeserializeObject<Rootobject>(antjson);
             Console.WriteLine(antr.stream);
-            if (antr.stream == null)
-            {
-                anthonyz_.Background = Brushes.Red;
-            }
-            else
+            if (antr.stream != null && antr.stream.game == "Grand Theft Auto V")
             {
                 anthonyz_.Background = Brushes.LightGreen;
             }
@@ -541,11 +517,7 @@ namespace TFRPStreambox_CSharp
 
             Rootobject bflyr = JsonConvert.DeserializeObject<Rootobject>(bflyjson);
             Console.WriteLine(bflyr.stream);
-            if (bflyr.stream == null)
-            {
-                BFLY003.Background = Brushes.Red;
-            }
-            else
+            if (bflyr.stream != null && bflyr.stream.game == "Grand Theft Auto V")
             {
                 BFLY003.Background = Brushes.LightGreen;
             }
@@ -556,11 +528,7 @@ namespace TFRPStreambox_CSharp
 
             Rootobject boscorelir = JsonConvert.DeserializeObject<Rootobject>(boscorelijson);
             Console.WriteLine(boscorelir.stream);
-            if (boscorelir.stream == null)
-            {
-                boscoreli_gaming.Background = Brushes.Red;
-            }
-            else
+            if (boscorelir.stream != null && boscorelir.stream.game == "Grand Theft Auto V")
             {
                 boscoreli_gaming.Background = Brushes.LightGreen;
             }
@@ -571,11 +539,7 @@ namespace TFRPStreambox_CSharp
 
             Rootobject bpzr = JsonConvert.DeserializeObject<Rootobject>(bpzjson);
             Console.WriteLine(bpzr.stream);
-            if (bpzr.stream == null)
-            {
-                BPZ.Background = Brushes.Red;
-            }
-            else
+            if (bpzr.stream != null && bpzr.stream.game == "Grand Theft Auto V")
             {
                 BPZ.Background = Brushes.LightGreen;
             }
@@ -586,11 +550,7 @@ namespace TFRPStreambox_CSharp
 
             Rootobject buckr = JsonConvert.DeserializeObject<Rootobject>(buckjson);
             Console.WriteLine(buckr.stream);
-            if (buckr.stream == null)
-            {
-                BuckkNaked.Background = Brushes.Red;
-            }
-            else
+            if (buckr.stream != null && buckr.stream.game == "Grand Theft Auto V")
             {
                 BuckkNaked.Background = Brushes.LightGreen;
             }
@@ -601,11 +561,7 @@ namespace TFRPStreambox_CSharp
 
             Rootobject burker = JsonConvert.DeserializeObject<Rootobject>(burkej);
             Console.WriteLine(burker.stream);
-            if (burker.stream == null)
-            {
-                BurkeBlack.Background = Brushes.Red;
-            }
-            else
+            if (burker.stream != null && burker.stream.game == "Grand Theft Auto V")
             {
                 BurkeBlack.Background = Brushes.LightGreen;
             }
@@ -616,11 +572,7 @@ namespace TFRPStreambox_CSharp
 
             Rootobject chickr = JsonConvert.DeserializeObject<Rootobject>(chickj);
             Console.WriteLine(chickr.stream);
-            if (chickr.stream == null)
-            {
-                Ch1ckenb0ne.Background = Brushes.Red;
-            }
-            else
+            if (chickr.stream != null && chickr.stream.game == "Grand Theft Auto V")
             {
                 Ch1ckenb0ne.Background = Brushes.LightGreen;
             }
@@ -631,11 +583,7 @@ namespace TFRPStreambox_CSharp
 
             Rootobject chiefr = JsonConvert.DeserializeObject<Rootobject>(chiefj);
             Console.WriteLine(chiefr.stream);
-            if (chiefr.stream == null)
-            {
-                ChiefDas.Background = Brushes.Red;
-            }
-            else
+            if (chiefr.stream != null && chiefr.stream.game == "Grand Theft Auto V")
             {
                 ChiefDas.Background = Brushes.LightGreen;
             }
@@ -646,11 +594,7 @@ namespace TFRPStreambox_CSharp
 
             Rootobject classyr = JsonConvert.DeserializeObject<Rootobject>(classyj);
             Console.WriteLine(classyr.stream);
-            if (classyr.stream == null)
-            {
-                ClassyPax.Background = Brushes.Red;
-            }
-            else
+            if (classyr.stream != null && classyr.stream.game == "Grand Theft Auto V")
             {
                 ClassyPax.Background = Brushes.LightGreen;
             }
@@ -661,11 +605,7 @@ namespace TFRPStreambox_CSharp
 
             Rootobject cletr = JsonConvert.DeserializeObject<Rootobject>(cletj);
             Console.WriteLine(cletr.stream);
-            if (cletr.stream == null)
-            {
-                CletusBueford.Background = Brushes.Red;
-            }
-            else
+            if (cletr.stream != null && cletr.stream.game == "Grand Theft Auto V")
             {
                 CletusBueford.Background = Brushes.LightGreen;
             }
@@ -676,11 +616,7 @@ namespace TFRPStreambox_CSharp
 
             Rootobject coolr = JsonConvert.DeserializeObject<Rootobject>(coolj);
             Console.WriteLine(coolr.stream);
-            if (coolr.stream == null)
-            {
-                CoolidgeHD.Background = Brushes.Red;
-            }
-            else
+            if (coolr.stream != null && coolr.stream.game == "Grand Theft Auto V")
             {
                 CoolidgeHD.Background = Brushes.LightGreen;
             }
@@ -691,11 +627,7 @@ namespace TFRPStreambox_CSharp
 
             Rootobject dasr = JsonConvert.DeserializeObject<Rootobject>(dasj);
             Console.WriteLine(dasr.stream);
-            if (dasr.stream == null)
-            {
-                dasMehdi.Background = Brushes.Red;
-            }
-            else
+            if (dasr.stream != null && dasr.stream.game == "Grand Theft Auto V")
             {
                 dasMehdi.Background = Brushes.LightGreen;
             }
@@ -706,11 +638,7 @@ namespace TFRPStreambox_CSharp
 
             Rootobject disr = JsonConvert.DeserializeObject<Rootobject>(disj);
             Console.WriteLine(disr.stream);
-            if (disr.stream == null)
-            {
-                DisbeArex.Background = Brushes.Red;
-            }
-            else
+            if (disr.stream != null && disr.stream.game == "Grand Theft Auto V")
             {
                 DisbeArex.Background = Brushes.LightGreen;
             }
@@ -721,11 +649,7 @@ namespace TFRPStreambox_CSharp
 
             Rootobject djkr = JsonConvert.DeserializeObject<Rootobject>(djkj);
             Console.WriteLine(djkr.stream);
-            if (djkr.stream == null)
-            {
-                djkwix.Background = Brushes.Red;
-            }
-            else
+            if (djkr.stream != null && djkr.stream.game == "Grand Theft Auto V")
             {
                 djkwix.Background = Brushes.LightGreen;
             }
@@ -736,11 +660,7 @@ namespace TFRPStreambox_CSharp
 
             Rootobject drunr = JsonConvert.DeserializeObject<Rootobject>(drunj);
             Console.WriteLine(drunr.stream);
-            if (drunr.stream == null)
-            {
-                DrunkBabyYoshi.Background = Brushes.Red;
-            }
-            else
+            if (drunr.stream != null && drunr.stream.game == "Grand Theft Auto V")
             {
                 DrunkBabyYoshi.Background = Brushes.LightGreen;
             }
@@ -751,11 +671,7 @@ namespace TFRPStreambox_CSharp
 
             Rootobject esor = JsonConvert.DeserializeObject<Rootobject>(esoj);
             Console.WriteLine(esor.stream);
-            if (esor.stream == null)
-            {
-                Esoluu.Background = Brushes.Red;
-            }
-            else
+            if (esor.stream != null && esor.stream.game == "Grand Theft Auto V")
             {
                 Esoluu.Background = Brushes.LightGreen;
             }
@@ -766,11 +682,7 @@ namespace TFRPStreambox_CSharp
 
             Rootobject finr = JsonConvert.DeserializeObject<Rootobject>(finj);
             Console.WriteLine(finr.stream);
-            if (finr.stream == null)
-            {
-                Finkone.Background = Brushes.Red;
-            }
-            else
+            if (finr.stream != null && finr.stream.game == "Grand Theft Auto V")
             {
                 Finkone.Background = Brushes.LightGreen;
             }
@@ -781,11 +693,7 @@ namespace TFRPStreambox_CSharp
 
             Rootobject fisr = JsonConvert.DeserializeObject<Rootobject>(fisj);
             Console.WriteLine(fisr.stream);
-            if (fisr.stream == null)
-            {
-                FistofTheWalrus.Background = Brushes.Red;
-            }
-            else
+            if (fisr.stream != null && fisr.stream.game == "Grand Theft Auto V")
             {
                 FistofTheWalrus.Background = Brushes.LightGreen;
             }
@@ -796,11 +704,7 @@ namespace TFRPStreambox_CSharp
 
             Rootobject fiver = JsonConvert.DeserializeObject<Rootobject>(fivej);
             Console.WriteLine(fiver.stream);
-            if (fiver.stream == null)
-            {
-                Five0AnthO.Background = Brushes.Red;
-            }
-            else
+            if (fiver.stream != null && fiver.stream.game == "Grand Theft Auto V")
             {
                 Five0AnthO.Background = Brushes.LightGreen;
             }
@@ -811,11 +715,7 @@ namespace TFRPStreambox_CSharp
 
             Rootobject geer = JsonConvert.DeserializeObject<Rootobject>(geej);
             Console.WriteLine(geer.stream);
-            if (geer.stream == null)
-            {
-                GeeFamous92.Background = Brushes.Red;
-            }
-            else
+            if (geer.stream != null && geer.stream.game == "Grand Theft Auto V")
             {
                 GeeFamous92.Background = Brushes.LightGreen;
             }
@@ -826,11 +726,7 @@ namespace TFRPStreambox_CSharp
 
             Rootobject ghir = JsonConvert.DeserializeObject<Rootobject>(ghij);
             Console.WriteLine(ghir.stream);
-            if (ghir.stream == null)
-            {
-                GhilleGuyTV.Background = Brushes.Red;
-            }
-            else
+            if (ghir.stream != null && ghir.stream.game == "Grand Theft Auto V")
             {
                 GhilleGuyTV.Background = Brushes.LightGreen;
             }
@@ -841,11 +737,7 @@ namespace TFRPStreambox_CSharp
 
             Rootobject giar = JsonConvert.DeserializeObject<Rootobject>(giaj);
             Console.WriteLine(giar.stream);
-            if (giar.stream == null)
-            {
-                GiantFaffle.Background = Brushes.Red;
-            }
-            else
+            if (giar.stream != null && giar.stream.game == "Grand Theft Auto V")
             {
                 GiantFaffle.Background = Brushes.LightGreen;
             }
@@ -856,11 +748,7 @@ namespace TFRPStreambox_CSharp
 
             Rootobject glor = JsonConvert.DeserializeObject<Rootobject>(gloj);
             Console.WriteLine(glor.stream);
-            if (glor.stream == null)
-            {
-                GloryD.Background = Brushes.Red;
-            }
-            else
+            if (glor.stream != null && glor.stream.game == "Grand Theft Auto V")
             {
                 GloryD.Background = Brushes.LightGreen;
             }
@@ -871,11 +759,7 @@ namespace TFRPStreambox_CSharp
 
             Rootobject harr = JsonConvert.DeserializeObject<Rootobject>(harj);
             Console.WriteLine(harr.stream);
-            if (harr.stream == null)
-            {
-                Harryow.Background = Brushes.Red;
-            }
-            else
+            if (harr.stream != null && harr.stream.game == "Grand Theft Auto V")
             {
                 Harryow.Background = Brushes.LightGreen;
             }
@@ -886,11 +770,7 @@ namespace TFRPStreambox_CSharp
 
             Rootobject hazr = JsonConvert.DeserializeObject<Rootobject>(hazj);
             Console.WriteLine(hazr.stream);
-            if (hazr.stream == null)
-            {
-                Hazard.Background = Brushes.Red;
-            }
-            else
+            if (hazr.stream != null && hazr.stream.game == "Grand Theft Auto V")
             {
                 Hazard.Background = Brushes.LightGreen;
             }
@@ -901,11 +781,7 @@ namespace TFRPStreambox_CSharp
 
             Rootobject hirr = JsonConvert.DeserializeObject<Rootobject>(hirj);
             Console.WriteLine(hirr.stream);
-            if (hirr.stream == null)
-            {
-                Hirona.Background = Brushes.Red;
-            }
-            else
+            if (hirr.stream != null && hirr.stream.game == "Grand Theft Auto V")
             {
                 Hirona.Background = Brushes.LightGreen;
             }
@@ -916,11 +792,7 @@ namespace TFRPStreambox_CSharp
 
             Rootobject iamr = JsonConvert.DeserializeObject<Rootobject>(iamj);
             Console.WriteLine(iamr.stream);
-            if (iamr.stream == null)
-            {
-                IAmSp00n.Background = Brushes.Red;
-            }
-            else
+            if (iamr.stream != null && iamr.stream.game == "Grand Theft Auto V")
             {
                 IAmSp00n.Background = Brushes.LightGreen;
             }
@@ -931,11 +803,7 @@ namespace TFRPStreambox_CSharp
 
             Rootobject immr = JsonConvert.DeserializeObject<Rootobject>(immj);
             Console.WriteLine(immr.stream);
-            if (immr.stream == null)
-            {
-                ImmortalLive.Background = Brushes.Red;
-            }
-            else
+            if (immr.stream != null && immr.stream.game == "Grand Theft Auto V")
             {
                 ImmortalLive.Background = Brushes.LightGreen;
             }
@@ -946,11 +814,7 @@ namespace TFRPStreambox_CSharp
 
             Rootobject iror = JsonConvert.DeserializeObject<Rootobject>(iroj);
             Console.WriteLine(iror.stream);
-            if (iror.stream == null)
-            {
-                ironmonkeytv.Background = Brushes.Red;
-            }
-            else
+            if (iror.stream != null && iror.stream.game == "Grand Theft Auto V")
             {
                 ironmonkeytv.Background = Brushes.LightGreen;
             }
@@ -961,11 +825,7 @@ namespace TFRPStreambox_CSharp
 
             Rootobject itzr = JsonConvert.DeserializeObject<Rootobject>(itzj);
             Console.WriteLine(itzr.stream);
-            if (itzr.stream == null)
-            {
-                itzButch.Background = Brushes.Red;
-            }
-            else
+            if (itzr.stream != null && itzr.stream.game == "Grand Theft Auto V")
             {
                 itzButch.Background = Brushes.LightGreen;
             }
@@ -976,11 +836,7 @@ namespace TFRPStreambox_CSharp
 
             Rootobject jrer = JsonConvert.DeserializeObject<Rootobject>(jrej);
             Console.WriteLine(jrer.stream);
-            if (jrer.stream == null)
-            {
-                J_Reed.Background = Brushes.Red;
-            }
-            else
+            if (jrer.stream != null && jrer.stream.game == "Grand Theft Auto V")
             {
                 J_Reed.Background = Brushes.LightGreen;
             }
@@ -991,14 +847,231 @@ namespace TFRPStreambox_CSharp
 
             Rootobject jabr = JsonConvert.DeserializeObject<Rootobject>(jabj);
             Console.WriteLine(jabr.stream);
-            if (jabr.stream == null)
-            {
-                JaboodyShow.Background = Brushes.Red;
-            }
-            else
+            if (jabr.stream != null && jabr.stream.game == "Grand Theft Auto V")
             {
                 JaboodyShow.Background = Brushes.LightGreen;
             }
+            //jake_terek live check
+            string jaku = @"https://api.twitch.tv/kraken/streams/jake_terek?client_id=xskte44y2wfqin464ayecyc09nikcj";
+
+            var jakj = new WebClient().DownloadString(jaku);
+
+            Rootobject jakr = JsonConvert.DeserializeObject<Rootobject>(jakj);
+            Console.WriteLine(jakr.stream);
+            if (jakr.stream != null && jakr.stream.game == "Grand Theft Auto V")
+            {
+                jake_terek.Background = Brushes.LightGreen;
+            }
+            //JmxTwiztid live check
+            string jmxu = @"https://api.twitch.tv/kraken/streams/jmxtwiztid?client_id=xskte44y2wfqin464ayecyc09nikcj";
+
+            var jmxj = new WebClient().DownloadString(jmxu);
+
+            Rootobject jmxr = JsonConvert.DeserializeObject<Rootobject>(jmxj);
+            Console.WriteLine(jmxr.stream);
+            if (jmxr.stream != null && jmxr.stream.game == "Grand Theft Auto V")
+            {
+                JmxTwiztid.Background = Brushes.LightGreen;
+            }
+            //John782 live check
+            string johu = @"https://api.twitch.tv/kraken/streams/john782?client_id=xskte44y2wfqin464ayecyc09nikcj";
+
+            var johj = new WebClient().DownloadString(johu);
+
+            Rootobject johr = JsonConvert.DeserializeObject<Rootobject>(johj);
+            Console.WriteLine(johr.stream);
+            if (johr.stream != null && johr.stream.game == "Grand Theft Auto V")
+            {
+                John782.Background = Brushes.LightGreen;
+            }
+            //Jolly__Jess live check
+            string jolu = @"https://api.twitch.tv/kraken/streams/Jolly__Jess?client_id=xskte44y2wfqin464ayecyc09nikcj";
+
+            var jolj = new WebClient().DownloadString(jolu);
+
+            Rootobject jolr = JsonConvert.DeserializeObject<Rootobject>(jolj);
+            Console.WriteLine(jolr.stream);
+            if (jolr.stream != null && jolr.stream.game == "Grand Theft Auto V")
+            {
+                Jolly__Jess.Background = Brushes.LightGreen;
+            }
+            //JTtroy live check
+            string jttu = @"https://api.twitch.tv/kraken/streams/Jttroy?client_id=xskte44y2wfqin464ayecyc09nikcj";
+
+            var jttj = new WebClient().DownloadString(jttu);
+
+            Rootobject jttr = JsonConvert.DeserializeObject<Rootobject>(jttj);
+            Console.WriteLine(jttr.stream);
+            if (jttr.stream != null && jttr.stream.game == "Grand Theft Auto V")
+            {
+                JTtroy.Background = Brushes.LightGreen;
+            }
+            //kaceytron live check
+            string kacu = @"https://api.twitch.tv/kraken/streams/kaceytron?client_id=xskte44y2wfqin464ayecyc09nikcj";
+
+            var kacj = new WebClient().DownloadString(kacu);
+
+            Rootobject kacr = JsonConvert.DeserializeObject<Rootobject>(kacj);
+            Console.WriteLine(kacr.stream);
+            if (kacr.stream != null && kacr.stream.game == "Grand Theft Auto V")
+            {
+                kaceytron.Background = Brushes.LightGreen;
+            }
+            //KaptainKPress live check
+            string kapu = @"https://api.twitch.tv/kraken/streams/kaptainkpress?client_id=xskte44y2wfqin464ayecyc09nikcj";
+
+            var kapj = new WebClient().DownloadString(kapu);
+
+            Rootobject kapr = JsonConvert.DeserializeObject<Rootobject>(kapj);
+            Console.WriteLine(kapr.stream);
+            if (kapr.stream != null && kapr.stream.game == "Grand Theft Auto V")
+            {
+                KaptainKpress.Background = Brushes.LightGreen;
+            }
+            //KatieRouu live check
+            string katu = @"https://api.twitch.tv/kraken/streams/jaboodyshow?client_id=xskte44y2wfqin464ayecyc09nikcj";
+
+            var katj = new WebClient().DownloadString(katu);
+
+            Rootobject katr = JsonConvert.DeserializeObject<Rootobject>(katj);
+            Console.WriteLine(katr.stream);
+            if (katr.stream != null && katr.stream.game == "Grand Theft Auto V")
+            {
+                KatieRouu.Background = Brushes.LightGreen;
+            }
+            //Kithicor27 live check
+            string kitu = @"https://api.twitch.tv/kraken/streams/kithicor27?client_id=xskte44y2wfqin464ayecyc09nikcj";
+
+            var kitj = new WebClient().DownloadString(kitu);
+
+            Rootobject kitr = JsonConvert.DeserializeObject<Rootobject>(kitj);
+            Console.WriteLine(kitr.stream);
+            if (kitr.stream != null && kitr.stream.game == "Grand Theft Auto V")
+            {
+                Kithicor27.Background = Brushes.LightGreen;
+            }
+            //LarryX7 live check
+            string laru = @"https://api.twitch.tv/kraken/streams/larryx7?client_id=xskte44y2wfqin464ayecyc09nikcj";
+
+            var larj = new WebClient().DownloadString(laru);
+
+            Rootobject larr = JsonConvert.DeserializeObject<Rootobject>(larj);
+            Console.WriteLine(larr.stream);
+            if (larr.stream != null && larr.stream.game == "Grand Theft Auto V")
+            {
+                LarryX7.Background = Brushes.LightGreen;
+            }
+            //lawdog1096 live check
+            string lawu = @"https://api.twitch.tv/kraken/streams/lawdog1096?client_id=xskte44y2wfqin464ayecyc09nikcj";
+
+            var lawj = new WebClient().DownloadString(lawu);
+
+            Rootobject lawr = JsonConvert.DeserializeObject<Rootobject>(lawj);
+            Console.WriteLine(lawr.stream);
+            if (lawr.stream != null && lawr.stream.game == "Grand Theft Auto V")
+            {
+                lawdog1096.Background = Brushes.LightGreen;
+            }
+            //LiftYourGame live check
+            string lifu = @"https://api.twitch.tv/kraken/streams/lifeyourgame?client_id=xskte44y2wfqin464ayecyc09nikcj";
+
+            var lifj = new WebClient().DownloadString(lifu);
+
+            Rootobject lifr = JsonConvert.DeserializeObject<Rootobject>(lifj);
+            Console.WriteLine(lifr.stream);
+            if (lifr.stream != null && lifr.stream.game == "Grand Theft Auto V")
+            {
+                KatieRouu.Background = Brushes.LightGreen;
+            }
+            //loveANG3L live check
+            string lovu = @"https://api.twitch.tv/kraken/streams/loveang3l?client_id=xskte44y2wfqin464ayecyc09nikcj";
+
+            var lovj = new WebClient().DownloadString(lovu);
+
+            Rootobject lovr = JsonConvert.DeserializeObject<Rootobject>(lovj);
+            Console.WriteLine(lovr.stream);
+            if (lovr.stream != null && lovr.stream.game == "Grand Theft Auto V")
+            {
+                loveANF3L.Background = Brushes.LightGreen;
+            }
+            //mart1n_g live check
+            string maru = @"https://api.twitch.tv/kraken/streams/mart1n_g?client_id=xskte44y2wfqin464ayecyc09nikcj";
+
+            var marj = new WebClient().DownloadString(maru);
+
+            Rootobject marr = JsonConvert.DeserializeObject<Rootobject>(marj);
+            Console.WriteLine(marr.stream);
+            if (marr.stream != null && marr.stream.game == "Grand Theft Auto V")
+            {
+                mart1n_g.Background = Brushes.LightGreen;
+            }
+            //MiltonTPike1 live check
+            string milu = @"https://api.twitch.tv/kraken/streams/MiltonTPike1?client_id=xskte44y2wfqin464ayecyc09nikcj";
+
+            var milj = new WebClient().DownloadString(milu);
+
+            Rootobject milr = JsonConvert.DeserializeObject<Rootobject>(milj);
+            Console.WriteLine(milr.stream);
+            if (milr.stream != null && milr.stream.game == "Grand Theft Auto V")
+            {
+                MiltonTPike1.Background = Brushes.LightGreen;
+            }
+            //MintsTV live check
+            string minu = @"https://api.twitch.tv/kraken/streams/mintstv?client_id=xskte44y2wfqin464ayecyc09nikcj";
+
+            var minj = new WebClient().DownloadString(minu);
+
+            Rootobject minr = JsonConvert.DeserializeObject<Rootobject>(minj);
+            Console.WriteLine(minr.stream);
+            if (minr.stream != null && minr.stream.game == "Grand Theft Auto V")
+            {
+                MintsTV.Background = Brushes.LightGreen;
+            }
+            //MrMoonsHouse live check
+            string mrmu = @"https://api.twitch.tv/kraken/streams/mrmoonshouse?client_id=xskte44y2wfqin464ayecyc09nikcj";
+
+            var mrmj = new WebClient().DownloadString(mrmu);
+
+            Rootobject mrmr = JsonConvert.DeserializeObject<Rootobject>(mrmj);
+            Console.WriteLine(mrmr.stream);
+            if (mrmr.stream != null && mrmr.stream.game == "Grand Theft Auto V")
+            {
+                MrMoonsHouse.Background = Brushes.LightGreen;
+            }
+            //MsDeathRabbit live check
+            string msdu = @"https://api.twitch.tv/kraken/streams/msdeathrabbit?client_id=xskte44y2wfqin464ayecyc09nikcj";
+
+            var msdj = new WebClient().DownloadString(msdu);
+
+            Rootobject msdr = JsonConvert.DeserializeObject<Rootobject>(msdj);
+            Console.WriteLine(msdr.stream);
+            if (msdr.stream != null && msdr.stream.game == "Grand Theft Auto V")
+            {
+                MsDeathRabbit.Background = Brushes.LightGreen;
+            }
+            //OG_BluePill live check
+            string ogu = @"https://api.twitch.tv/kraken/streams/og_bluepill?client_id=xskte44y2wfqin464ayecyc09nikcj";
+
+            var ogj = new WebClient().DownloadString(ogu);
+
+            Rootobject ogr = JsonConvert.DeserializeObject<Rootobject>(ogj);
+            Console.WriteLine(ogr.stream);
+            if (ogr.stream != null && ogr.stream.game == "Grand Theft Auto V")
+            {
+                Og_BluePill.Background = Brushes.LightGreen;
+            }
+            //PENTAhearth live check
+            string penu = @"https://api.twitch.tv/kraken/streams/pentahearth?client_id=xskte44y2wfqin464ayecyc09nikcj";
+
+            var penj = new WebClient().DownloadString(penu);
+
+            Rootobject penr = JsonConvert.DeserializeObject<Rootobject>(penj);
+            Console.WriteLine(penr.stream);
+            if (penr.stream != null && penr.stream.game == "Grand Theft Auto V")
+            {
+                PENTAhearth.Background = Brushes.LightGreen;
+            }
+
         }
     }
 }
