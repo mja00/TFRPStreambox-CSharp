@@ -6,13 +6,13 @@
         xmlns:local="clr-namespace:TFRPStreambox_CSharp"
         mc:Ignorable="d"
         Title="The FamilyRP Streambox" Height="588" Width="840">
-    <Grid>
+    <Grid Background="#FF252526">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="54*"/>
             <ColumnDefinition Width="767*"/>
         </Grid.ColumnDefinitions>
         <Button x:Name="_1GUnit1" Content="1GUnit1" HorizontalAlignment="Left" Margin="13.667,55,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" Click="_1GUnit1_MouseDown" ToolTip="Character: Jimmy Bean" Background="IndianRed"/>
-        <Label Content="The FamilyRP streambox. For all your action packed stream watching!" VerticalAlignment="Top" Margin="160,10,0,0" FontSize="14" Grid.Column="1" HorizontalAlignment="Left" Width="439"/>
+        <Label Content="The FamilyRP streambox. For all your action packed stream watching!" VerticalAlignment="Top" Margin="160,10,0,0" FontSize="14" Grid.Column="1" HorizontalAlignment="Left" Width="439" Foreground="White"/>
         <Button x:Name="AbdulHD" Content="AbdulHD" HorizontalAlignment="Left" Margin="113.667,55,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Abdul ALRahim" Click="AbdulHD_Click" Background="IndianRed"/>
         <Button x:Name="AgentNorth" Content="AgentNorth" HorizontalAlignment="Left" Margin="213.667,55,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Billy Roadstar" Click="AgentNorth_Click" Background="IndianRed"/>
         <Button x:Name="alexusnightingale" Content="alexusnightingale" HorizontalAlignment="Left" Margin="313.667,55,0,0" VerticalAlignment="Top" Width="85" Height="30" FontSize="10" Grid.Column="1" ToolTip="Characters: Alei Nightingale | Anastacia Ortiz" Click="alexusnightingale_Click" Background="IndianRed"/>
@@ -76,8 +76,8 @@
         <Button x:Name="Purrluna" Content="Purrluna" HorizontalAlignment="Left" Margin="513.667,454,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Kitty Cox" Click="Purrluna_Click" Background="IndianRed"/>
         <Button x:Name="Pydrex" Content="Pydrex" Margin="613.667,454,69,0" VerticalAlignment="Top" Height="30" Grid.Column="1" Width="85" ToolTip="Character: James Doakes" Click="Pydrex_Click" Background="IndianRed"/>
         <Button x:Name="myButton" Content="Next Page" Grid.Column="1" HorizontalAlignment="Left" Margin="314,500,0,0" VerticalAlignment="Top" Width="85" Height="30" Click="myButton_Click"/>
-        <Label Content="If the CMD box closes fast without VLC opening &#xD;&#xA;it means the stream is offline." Grid.Column="1" HorizontalAlignment="Left" Margin="0,500,0,0" VerticalAlignment="Top" Width="290" Height="47"/>
-        <Label Content="Hovering over a streamer will show info about their&#xD;&#xA;character." Grid.Column="1" HorizontalAlignment="Left" Margin="431,500,0,0" VerticalAlignment="Top" Height="47" Width="315"/>
+        <Label Content="If the CMD box closes fast without VLC opening &#xD;&#xA;it means the stream is offline." Grid.Column="1" HorizontalAlignment="Left" Margin="0,500,0,0" VerticalAlignment="Top" Width="290" Height="47" Foreground="White"/>
+        <Label Content="Hovering over a streamer will show info about their&#xD;&#xA;character." Grid.Column="1" HorizontalAlignment="Left" Margin="431,500,0,0" VerticalAlignment="Top" Height="47" Width="315" Foreground="White"/>
         <Button Content="VLC Player" Grid.Column="1" HorizontalAlignment="Left" Height="29" Margin="637,10,0,0" VerticalAlignment="Top" Width="109" Click="Button_Click" ToolTip="VLC is needed to see the video streams"/>
         <Button x:Name="Refresh" Content="Refresh" Grid.Column="1" HorizontalAlignment="Left" Margin="10,15,0,0" VerticalAlignment="Top" Width="75" Click="Refresh_Click"/>
 

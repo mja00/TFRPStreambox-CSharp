@@ -6,79 +6,80 @@
         xmlns:local="clr-namespace:TFRPStreambox_CSharp"
         mc:Ignorable="d"
         Title="The FamilyRP Streambox" Height="588" Width="840">
-    <Grid>
+    <Grid Background="#FF252526">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="54*"/>
-            <ColumnDefinition Width="767*"/>
+            <ColumnDefinition Width="55*"/>
+            <ColumnDefinition Width="464*"/>
+            <ColumnDefinition Width="313*"/>
         </Grid.ColumnDefinitions>
-        <Button x:Name="RajjPatel" Content="RajjPatel" HorizontalAlignment="Left" Margin="13.667,55,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Rajj Patel" Click="RajjPatel_Click" Background="IndianRed"/>
-        <Label Content="The FamilyRP streambox. For all your action packed stream watching!" VerticalAlignment="Top" Margin="160,10,0,0" FontSize="14" Grid.Column="1" HorizontalAlignment="Left" Width="439"/>
-        <Button x:Name="Rastafied" Content="Rastafied" HorizontalAlignment="Left" Margin="113.667,55,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Milly Bays" Click="Rastafied_Click" Background="IndianRed"/>
-        <Button x:Name="RastaRafikii" Content="RastaRafikii" HorizontalAlignment="Left" Margin="213.667,55,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Dean Dimes" Click="RastaRafikii_Click" Background="IndianRed"/>
-        <Button x:Name="SAMZHIT" Content="SAMZHIT" HorizontalAlignment="Left" Margin="313.667,55,0,0" VerticalAlignment="Top" Width="85" Height="30" FontSize="10" Grid.Column="1" ToolTip="Characters: Dimitri Barkov | Earl Higgs | John Hill" Click="SAMZHIT_Click" Background="IndianRed"/>
-        <Button x:Name="Sarapocalypse" Content="Sarapocalypse" HorizontalAlignment="Left" Margin="413.667,55,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Characters: Jessie Jones | Spencer Rhodes" Click="Sarapocalypse_Click" Background="IndianRed"/>
-        <Button x:Name="SayeedBlack" Content="SayeedBlack" HorizontalAlignment="Left" Margin="513.667,55,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Sayeed White" Click="SayeedBlack_Click" Background="IndianRed"/>
-        <Button x:Name="SeanKingV" Content="SeanKingV" Margin="613.667,55,69,0" VerticalAlignment="Top" Height="30" Grid.Column="1" Width="85" ToolTip="Character: Gerald Choppins" Click="SeanKingV_Click" Background="IndianRed"/>
-        <Button x:Name="Selvek" Content="Selvek" HorizontalAlignment="Left" Margin="13.667,104,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Jeffrey Connors" Click="Selvek_Click" Background="IndianRed"/>
-        <Button x:Name="ShaZ" Content="ShaZ" HorizontalAlignment="Left" Margin="113.667,104,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Buc Lauo" Click="ShaZ_Click" Background="IndianRed"/>
-        <Button x:Name="SheriffEli" Content="SheriffEli" HorizontalAlignment="Left" Margin="213.667,104,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Characters: Duke | Eli Thompson | Scott McCloud" Click="SheriffEli_Click" Background="IndianRed"/>
-        <Button x:Name="SHPTV" Content="SHP__TV" HorizontalAlignment="Left" Margin="313.667,104,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Bruce Greenwell" Click="SHPTV_Click" Background="IndianRed"/>
-        <Button x:Name="SilentSentry" Content="SilentSentry" HorizontalAlignment="Left" Margin="413.667,104,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Clarence Williams" Click="SilentSentry_Click" Background="IndianRed"/>
-        <Button x:Name="SimplyJulian" Content="SimplyJulian" HorizontalAlignment="Left" Margin="513.667,104,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Julian Santorno" Click="SimplyJulian_Click" Background="IndianRed"/>
-        <Button x:Name="SirCoffeestain" Content="SirCoffeestain" Margin="613.667,104,69,0" VerticalAlignment="Top" Height="30" Grid.Column="1" Width="85" ToolTip="Character: Roger Steel" Click="SirCoffeestain_Click" Background="IndianRed"/>
-        <Button x:Name="SirPinkleton00" Content="SirPinkleton00" HorizontalAlignment="Left" Margin="13.667,153,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Reginald Bigglesby" Click="SirPinkleton00_Click" Background="IndianRed"/>
-        <Button x:Name="SkipGently" Content="SkipGently" HorizontalAlignment="Left" Margin="113.667,153,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Jack Deakins" Click="SkipGently_Click" Background="IndianRed"/>
-        <Button x:Name="SomeTexas_Dude" Content="Some__Texas__Dude" HorizontalAlignment="Left" Margin="213.667,153,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" FontSize="10" ToolTip="Character: Nolan Ryan" Click="SomeTexas_Dude_Click" Background="IndianRed"/>
-        <Button x:Name="Ssaab" Content="Ssaab" HorizontalAlignment="Left" Margin="313.667,153,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" Click="Ssaab_Click" ToolTip="Character: Al Saab" Background="IndianRed"/>
-        <Button x:Name="TastyTV" Content="TastyTV" HorizontalAlignment="Left" Margin="413.667,153,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Characters: Bobby Irvine | Harold Wilson | Patrick Flanegan | William Parker" Click="TastyTV_Click" Background="IndianRed"/>
-        <Button x:Name="Thadrius" Content="Thadrius" HorizontalAlignment="Left" Margin="513.667,153,0,0" VerticalAlignment="Top" Width="85" Height="30" FontSize="11" Grid.Column="1" ToolTip="Characters: Brayben Dazzler | Johnny Dazzler | Slappy McGaffey" Click="Thadrius_Click" Background="IndianRed"/>
-        <Button x:Name="TheBuddha3" Content="TheBuddha3" Margin="613.667,153,69,0" VerticalAlignment="Top" Height="30" Grid.Column="1" Width="85" ToolTip="Character: Lang Buddha" Click="TheBuddha3_Click" Background="IndianRed"/>
-        <Button x:Name="thelawmangaming" Content="thelawmangaming" HorizontalAlignment="Left" Margin="13.667,207,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" FontSize="10" ToolTip="Character: Robert Beck" Click="thelawmangaming_Click" Background="IndianRed"/>
-        <Button x:Name="TigerWriter" Content="TigerWriter" HorizontalAlignment="Left" Margin="113.667,207,0,0" VerticalAlignment="Top" Width="85" Height="30" FontSize="11" Grid.Column="1" ToolTip="Character: Juan Goodman" Click="TigerWriter_Click" Background="IndianRed"/>
-        <Button x:Name="Timmac" Content="Timmac" HorizontalAlignment="Left" Margin="213.667,207,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Characters: Shaggy Dankweed | Timmy Macapone" Click="Timmac_Click" Background="IndianRed"/>
-        <Button x:Name="TVSBOH" Content="TVSBOH" HorizontalAlignment="Left" Margin="313.667,207,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Characters: Chester Heartsong | Tommy Silver" Click="TVSBOH_Click" Background="IndianRed"/>
-        <Button x:Name="UndeadBaron" Content="UndeadBaron" HorizontalAlignment="Left" Margin="413.667,207,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Yazumitsu Fujikawa" Click="UndeadBaron_Click" Background="IndianRed"/>
-        <Button x:Name="ValkyrieSpirit" Content="ValkyrieSpirit" HorizontalAlignment="Left" Margin="513.667,207,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Characters: Bianca Ellis | Stella Bouche" Click="ValkyrieSpirit_Click" Background="IndianRed"/>
-        <Button x:Name="Will_ko" Content="Will__ko" Margin="613.667,207,69,0" VerticalAlignment="Top" Height="30" Grid.Column="1" Width="85" ToolTip="Character: Edward Payne" Click="Will_ko_Click" Background="IndianRed"/>
-        <Button x:Name="willitkimchi" Content="willitkimchi" HorizontalAlignment="Left" Margin="13.667,256,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Characters: Lee Kimchi | Will Kimchi" Click="willitkimchi_Click" Background="IndianRed"/>
-        <Button x:Name="Wish" Content="Wish" HorizontalAlignment="Left" Margin="113.667,256,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Characters: Avery Jenkins | Miranda Wrights | Willow Nova" Click="Wish_Click" Background="IndianRed"/>
-        <Button x:Name="X_xZimx_X" Content="X__xZimx__X" HorizontalAlignment="Left" Margin="213.667,256,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Zim Pontes" Click="X_xZimx_X_Click" Background="IndianRed"/>
-        <Button x:Name="Xiceman" Content="Xiceman" HorizontalAlignment="Left" Margin="313.667,256,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Characters: Mike Bayo | Rusty Dawns" Click="Xiceman_Click" Background="IndianRed"/>
-        <Button x:Name="XProph3cyx" Content="XProph3cyx" HorizontalAlignment="Left" Margin="413.667,256,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Ichiro Suyaki" Click="XProph3cyx_Click" Background="IndianRed"/>
-        <Button x:Name="Zaquelle" Content="Zaquelle" HorizontalAlignment="Left" Margin="513.667,256,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Characters: Emma Moore | Zoey Lyrais" Click="Zaquelle_Click" Background="IndianRed"/>
-        <Button Content="N/A" Margin="613.667,256,69,0" VerticalAlignment="Top" Height="30" Grid.Column="1" Width="85" IsEnabled="False"/>
-        <Button Content="N/A" HorizontalAlignment="Left" Margin="13.667,305,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" IsEnabled="False"/>
-        <Button Content="N/A" HorizontalAlignment="Left" Margin="113.667,305,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" IsEnabled="False"/>
-        <Button Content="N/A" HorizontalAlignment="Left" Margin="213.667,305,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" IsEnabled="False"/>
-        <Button Content="N/A" HorizontalAlignment="Left" Margin="313.667,305,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" IsEnabled="False"/>
-        <Button Content="N/A" HorizontalAlignment="Left" Margin="413.667,305,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" IsEnabled="False"/>
-        <Button Content="N/A" HorizontalAlignment="Left" Margin="513.667,305,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" IsEnabled="False"/>
-        <Button Content="N/A" Margin="613.667,305,69,0" VerticalAlignment="Top" Height="30" Grid.Column="1" Width="85" IsEnabled="False"/>
-        <Button Content="N/A" HorizontalAlignment="Left" Margin="13.667,356,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" IsEnabled="False"/>
-        <Button Content="N/A" HorizontalAlignment="Left" Margin="113.667,356,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" IsEnabled="False"/>
-        <Button Content="N/A" HorizontalAlignment="Left" Margin="213.667,356,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" IsEnabled="False"/>
-        <Button Content="N/A" HorizontalAlignment="Left" Margin="313.667,356,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" IsEnabled="False"/>
-        <Button Content="N/A" HorizontalAlignment="Left" Margin="413.667,356,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" IsEnabled="False"/>
-        <Button Content="N/A" HorizontalAlignment="Left" Margin="513.667,356,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" IsEnabled="False"/>
-        <Button Content="N/A" Margin="613.667,356,69,0" VerticalAlignment="Top" Height="30" Grid.Column="1" Width="85" IsEnabled="False"/>
-        <Button Content="N/A" HorizontalAlignment="Left" Margin="13.667,405,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" IsEnabled="False"/>
-        <Button Content="N/A" HorizontalAlignment="Left" Margin="113.667,405,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" IsEnabled="False"/>
-        <Button Content="N/A" HorizontalAlignment="Left" Margin="213.667,405,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" IsEnabled="False"/>
-        <Button Content="N/A" HorizontalAlignment="Left" Margin="313.667,405,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" IsEnabled="False"/>
-        <Button Content="N/A" HorizontalAlignment="Left" Margin="413.667,405,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" FontSize="11" IsEnabled="False"/>
-        <Button Content="N/A" HorizontalAlignment="Left" Margin="513.667,405,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" IsEnabled="False"/>
-        <Button Content="N/A" Margin="613.667,405,69,0" VerticalAlignment="Top" Height="30" Grid.Column="1" Width="85" IsEnabled="False"/>
-        <Button Content="N/A" HorizontalAlignment="Left" Margin="13.667,454,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" IsEnabled="False"/>
-        <Button Content="N/A" HorizontalAlignment="Left" Margin="113.667,454,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" IsEnabled="False"/>
-        <Button Content="N/A" HorizontalAlignment="Left" Margin="213.667,454,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" IsEnabled="False"/>
-        <Button Content="N/A" HorizontalAlignment="Left" Margin="313.667,454,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" FontSize="11" IsEnabled="False"/>
-        <Button Content="N/A" HorizontalAlignment="Left" Margin="413.667,454,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" IsEnabled="False"/>
-        <Button Content="N/A" HorizontalAlignment="Left" Margin="513.667,454,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" IsEnabled="False"/>
-        <Button Content="N/A" Margin="613.667,454,69,0" VerticalAlignment="Top" Height="30" Grid.Column="1" Width="85" IsEnabled="False"/>
+        <Button x:Name="RajjPatel" Content="RajjPatel" HorizontalAlignment="Left" Margin="14,55,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Rajj Patel" Click="RajjPatel_Click" Background="IndianRed"/>
+        <Label Content="The FamilyRP streambox. For all your action packed stream watching!" VerticalAlignment="Top" Margin="160,10,0,0" FontSize="14" Grid.Column="1" HorizontalAlignment="Left" Width="439" Foreground="White" Grid.ColumnSpan="2"/>
+        <Button x:Name="Rastafied" Content="Rastafied" HorizontalAlignment="Left" Margin="114,55,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Milly Bays" Click="Rastafied_Click" Background="IndianRed"/>
+        <Button x:Name="RastaRafikii" Content="RastaRafikii" HorizontalAlignment="Left" Margin="214,55,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Dean Dimes" Click="RastaRafikii_Click" Background="IndianRed"/>
+        <Button x:Name="SAMZHIT" Content="SAMZHIT" HorizontalAlignment="Left" Margin="314,55,0,0" VerticalAlignment="Top" Width="85" Height="30" FontSize="10" Grid.Column="1" ToolTip="Characters: Dimitri Barkov | Earl Higgs | John Hill" Click="SAMZHIT_Click" Background="IndianRed"/>
+        <Button x:Name="Sarapocalypse" Content="Sarapocalypse" HorizontalAlignment="Left" Margin="414,55,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Characters: Jessie Jones | Spencer Rhodes" Click="Sarapocalypse_Click" Background="IndianRed" Grid.ColumnSpan="2"/>
+        <Button x:Name="SayeedBlack" Content="SayeedBlack" HorizontalAlignment="Left" Margin="50,55,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="2" ToolTip="Character: Sayeed White" Click="SayeedBlack_Click" Background="IndianRed"/>
+        <Button x:Name="SeanKingV" Content="SeanKingV" Margin="154,55,74,0" VerticalAlignment="Top" Height="30" Grid.Column="2" Width="85" ToolTip="Character: Gerald Choppins" Click="SeanKingV_Click" Background="IndianRed"/>
+        <Button x:Name="Selvek" Content="Selvek" HorizontalAlignment="Left" Margin="14,104,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Jeffrey Connors" Click="Selvek_Click" Background="IndianRed"/>
+        <Button x:Name="ShaZ" Content="ShaZ" HorizontalAlignment="Left" Margin="114,104,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Buc Lauo" Click="ShaZ_Click" Background="IndianRed"/>
+        <Button x:Name="SheriffEli" Content="SheriffEli" HorizontalAlignment="Left" Margin="214,104,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Characters: Duke | Eli Thompson | Scott McCloud" Click="SheriffEli_Click" Background="IndianRed"/>
+        <Button x:Name="SHPTV" Content="SHP__TV" HorizontalAlignment="Left" Margin="314,104,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Bruce Greenwell" Click="SHPTV_Click" Background="IndianRed"/>
+        <Button x:Name="SilentSentry" Content="SilentSentry" HorizontalAlignment="Left" Margin="414,104,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Clarence Williams" Click="SilentSentry_Click" Background="IndianRed" Grid.ColumnSpan="2"/>
+        <Button x:Name="SimplyJulian" Content="SimplyJulian" HorizontalAlignment="Left" Margin="50,104,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="2" ToolTip="Character: Julian Santorno" Click="SimplyJulian_Click" Background="IndianRed"/>
+        <Button x:Name="SirCoffeestain" Content="SirCoffeestain" Margin="154,104,74,0" VerticalAlignment="Top" Height="30" Grid.Column="2" Width="85" ToolTip="Character: Roger Steel" Click="SirCoffeestain_Click" Background="IndianRed"/>
+        <Button x:Name="SirPinkleton00" Content="SirPinkleton00" HorizontalAlignment="Left" Margin="14,153,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Reginald Bigglesby" Click="SirPinkleton00_Click" Background="IndianRed"/>
+        <Button x:Name="SkipGently" Content="SkipGently" HorizontalAlignment="Left" Margin="114,153,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Jack Deakins" Click="SkipGently_Click" Background="IndianRed"/>
+        <Button x:Name="SomeTexas_Dude" Content="Some__Texas__Dude" HorizontalAlignment="Left" Margin="214,153,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" FontSize="10" ToolTip="Character: Nolan Ryan" Click="SomeTexas_Dude_Click" Background="IndianRed"/>
+        <Button x:Name="Ssaab" Content="Ssaab" HorizontalAlignment="Left" Margin="314,153,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" Click="Ssaab_Click" ToolTip="Character: Al Saab" Background="IndianRed"/>
+        <Button x:Name="TastyTV" Content="TastyTV" HorizontalAlignment="Left" Margin="414,153,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Characters: Bobby Irvine | Harold Wilson | Patrick Flanegan | William Parker" Click="TastyTV_Click" Background="IndianRed" Grid.ColumnSpan="2"/>
+        <Button x:Name="Thadrius" Content="Thadrius" HorizontalAlignment="Left" Margin="50,153,0,0" VerticalAlignment="Top" Width="85" Height="30" FontSize="11" Grid.Column="2" ToolTip="Characters: Brayben Dazzler | Johnny Dazzler | Slappy McGaffey" Click="Thadrius_Click" Background="IndianRed"/>
+        <Button x:Name="TheBuddha3" Content="TheBuddha3" Margin="154,153,74,0" VerticalAlignment="Top" Height="30" Grid.Column="2" Width="85" ToolTip="Character: Lang Buddha" Click="TheBuddha3_Click" Background="IndianRed"/>
+        <Button x:Name="thelawmangaming" Content="thelawmangaming" HorizontalAlignment="Left" Margin="14,207,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" FontSize="10" ToolTip="Character: Robert Beck" Click="thelawmangaming_Click" Background="IndianRed"/>
+        <Button x:Name="TigerWriter" Content="TigerWriter" HorizontalAlignment="Left" Margin="114,207,0,0" VerticalAlignment="Top" Width="85" Height="30" FontSize="11" Grid.Column="1" ToolTip="Character: Juan Goodman" Click="TigerWriter_Click" Background="IndianRed"/>
+        <Button x:Name="Timmac" Content="Timmac" HorizontalAlignment="Left" Margin="214,207,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Characters: Shaggy Dankweed | Timmy Macapone" Click="Timmac_Click" Background="IndianRed"/>
+        <Button x:Name="TVSBOH" Content="TVSBOH" HorizontalAlignment="Left" Margin="314,207,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Characters: Chester Heartsong | Tommy Silver" Click="TVSBOH_Click" Background="IndianRed"/>
+        <Button x:Name="UndeadBaron" Content="UndeadBaron" HorizontalAlignment="Left" Margin="414,207,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Yazumitsu Fujikawa" Click="UndeadBaron_Click" Background="IndianRed" Grid.ColumnSpan="2"/>
+        <Button x:Name="ValkyrieSpirit" Content="ValkyrieSpirit" HorizontalAlignment="Left" Margin="50,207,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="2" ToolTip="Characters: Bianca Ellis | Stella Bouche" Click="ValkyrieSpirit_Click" Background="IndianRed"/>
+        <Button x:Name="Will_ko" Content="Will__ko" Margin="154,207,74,0" VerticalAlignment="Top" Height="30" Grid.Column="2" Width="85" ToolTip="Character: Edward Payne" Click="Will_ko_Click" Background="IndianRed"/>
+        <Button x:Name="willitkimchi" Content="willitkimchi" HorizontalAlignment="Left" Margin="14,256,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Characters: Lee Kimchi | Will Kimchi" Click="willitkimchi_Click" Background="IndianRed"/>
+        <Button x:Name="Wish" Content="Wish" HorizontalAlignment="Left" Margin="114,256,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Characters: Avery Jenkins | Miranda Wrights | Willow Nova" Click="Wish_Click" Background="IndianRed"/>
+        <Button x:Name="X_xZimx_X" Content="X__xZimx__X" HorizontalAlignment="Left" Margin="214,256,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Zim Pontes" Click="X_xZimx_X_Click" Background="IndianRed"/>
+        <Button x:Name="Xiceman" Content="Xiceman" HorizontalAlignment="Left" Margin="314,256,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Characters: Mike Bayo | Rusty Dawns" Click="Xiceman_Click" Background="IndianRed"/>
+        <Button x:Name="XProph3cyx" Content="XProph3cyx" HorizontalAlignment="Left" Margin="414,256,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" ToolTip="Character: Ichiro Suyaki" Click="XProph3cyx_Click" Background="IndianRed" Grid.ColumnSpan="2"/>
+        <Button x:Name="Zaquelle" Content="Zaquelle" HorizontalAlignment="Left" Margin="50,256,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="2" ToolTip="Characters: Emma Moore | Zoey Lyrais" Click="Zaquelle_Click" Background="IndianRed"/>
+        <Button Content="N/A" Margin="154,256,74,0" VerticalAlignment="Top" Height="30" Grid.Column="2" Width="85" IsEnabled="False"/>
+        <Button Content="N/A" HorizontalAlignment="Left" Margin="14,305,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" IsEnabled="False"/>
+        <Button Content="N/A" HorizontalAlignment="Left" Margin="114,305,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" IsEnabled="False"/>
+        <Button Content="N/A" HorizontalAlignment="Left" Margin="214,305,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" IsEnabled="False"/>
+        <Button Content="N/A" HorizontalAlignment="Left" Margin="314,305,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" IsEnabled="False"/>
+        <Button Content="N/A" HorizontalAlignment="Left" Margin="414,305,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" IsEnabled="False" Grid.ColumnSpan="2"/>
+        <Button Content="N/A" HorizontalAlignment="Left" Margin="50,305,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="2" IsEnabled="False"/>
+        <Button Content="N/A" Margin="154,305,74,0" VerticalAlignment="Top" Height="30" Grid.Column="2" Width="85" IsEnabled="False"/>
+        <Button Content="N/A" HorizontalAlignment="Left" Margin="14,356,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" IsEnabled="False"/>
+        <Button Content="N/A" HorizontalAlignment="Left" Margin="114,356,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" IsEnabled="False"/>
+        <Button Content="N/A" HorizontalAlignment="Left" Margin="214,356,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" IsEnabled="False"/>
+        <Button Content="N/A" HorizontalAlignment="Left" Margin="314,356,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" IsEnabled="False"/>
+        <Button Content="N/A" HorizontalAlignment="Left" Margin="414,356,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" IsEnabled="False" Grid.ColumnSpan="2"/>
+        <Button Content="N/A" HorizontalAlignment="Left" Margin="50,356,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="2" IsEnabled="False"/>
+        <Button Content="N/A" Margin="154,356,74,0" VerticalAlignment="Top" Height="30" Grid.Column="2" Width="85" IsEnabled="False"/>
+        <Button Content="N/A" HorizontalAlignment="Left" Margin="14,405,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" IsEnabled="False"/>
+        <Button Content="N/A" HorizontalAlignment="Left" Margin="114,405,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" IsEnabled="False"/>
+        <Button Content="N/A" HorizontalAlignment="Left" Margin="214,405,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" IsEnabled="False"/>
+        <Button Content="N/A" HorizontalAlignment="Left" Margin="314,405,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" IsEnabled="False"/>
+        <Button Content="N/A" HorizontalAlignment="Left" Margin="414,405,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" FontSize="11" IsEnabled="False" Grid.ColumnSpan="2"/>
+        <Button Content="N/A" HorizontalAlignment="Left" Margin="50,405,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="2" IsEnabled="False"/>
+        <Button Content="N/A" Margin="154,405,74,0" VerticalAlignment="Top" Height="30" Grid.Column="2" Width="85" IsEnabled="False"/>
+        <Button Content="N/A" HorizontalAlignment="Left" Margin="14,454,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" IsEnabled="False"/>
+        <Button Content="N/A" HorizontalAlignment="Left" Margin="114,454,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" IsEnabled="False"/>
+        <Button Content="N/A" HorizontalAlignment="Left" Margin="214,454,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" IsEnabled="False"/>
+        <Button Content="N/A" HorizontalAlignment="Left" Margin="314,454,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" FontSize="11" IsEnabled="False"/>
+        <Button Content="N/A" HorizontalAlignment="Left" Margin="414,454,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="1" IsEnabled="False" Grid.ColumnSpan="2"/>
+        <Button Content="N/A" HorizontalAlignment="Left" Margin="50,454,0,0" VerticalAlignment="Top" Width="85" Height="30" Grid.Column="2" IsEnabled="False"/>
+        <Button Content="N/A" Margin="154,454,74,0" VerticalAlignment="Top" Height="30" Grid.Column="2" Width="85" IsEnabled="False"/>
         <Button x:Name="BackButton" Content="Last Page" Grid.Column="1" HorizontalAlignment="Left" Margin="314,500,0,0" VerticalAlignment="Top" Width="85" Height="30" Click="BackButton_Click"/>
-        <Label Content="If the CMD box closes fast without VLC opening &#xD;&#xA;it means the stream is offline." Grid.Column="1" HorizontalAlignment="Left" Margin="0,500,0,0" VerticalAlignment="Top" Width="290" Height="47"/>
-        <Label Content="Hovering over a streamer will show info about their&#xD;&#xA;character." Grid.Column="1" HorizontalAlignment="Left" Margin="431,500,0,0" VerticalAlignment="Top" Height="47" Width="315"/>
-        <Button Content="VLC Player" Grid.Column="1" HorizontalAlignment="Left" Height="29" Margin="637,10,0,0" VerticalAlignment="Top" Width="109" Click="Button_Click" ToolTip="VLC is needed to see the video streams"/>
+        <Label Content="If the CMD box closes fast without VLC opening &#xD;&#xA;it means the stream is offline." Grid.Column="1" HorizontalAlignment="Left" Margin="0,500,0,0" VerticalAlignment="Top" Width="290" Height="47" Foreground="White"/>
+        <Label Content="Hovering over a streamer will show info about their&#xD;&#xA;character." Grid.Column="1" HorizontalAlignment="Left" Margin="431,500,0,0" VerticalAlignment="Top" Height="47" Width="315" Foreground="White" Grid.ColumnSpan="2"/>
+        <Button Content="VLC Player" Grid.Column="2" HorizontalAlignment="Left" Height="29" Margin="173,10,0,0" VerticalAlignment="Top" Width="109" Click="Button_Click" ToolTip="VLC is needed to see the video streams"/>
         <Button x:Name="Refresh" Content="Refresh" Grid.Column="1" HorizontalAlignment="Left" Margin="10,15,0,0" VerticalAlignment="Top" Width="75" Click="Refresh_Click"/>
 
     </Grid>
