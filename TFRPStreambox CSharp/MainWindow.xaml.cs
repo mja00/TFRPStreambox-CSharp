@@ -468,6 +468,10 @@ namespace TFRPStreambox_CSharp
             {
                 _1GUnit1.Background = Brushes.LightGreen;
             }
+            else
+            {
+                _1GUnit1.Background = Brushes.IndianRed;
+            }
             //AbdulHD Live check
             string abdulhdurl = @"https://api.twitch.tv/kraken/streams/AbDulHD?client_id=xskte44y2wfqin464ayecyc09nikcj";
 
@@ -478,6 +482,10 @@ namespace TFRPStreambox_CSharp
             if (abdulhdr.stream != null && abdulhdr.stream.game == "Grand Theft Auto V")
             {
                 AbdulHD.Background = Brushes.LightGreen;
+            }
+            else
+            {
+                AbdulHD.Background = Brushes.IndianRed;
             }
             //AgentNorth live check
             string agentnorthurl = @"https://api.twitch.tv/kraken/streams/agentnorth?client_id=xskte44y2wfqin464ayecyc09nikcj";
@@ -490,6 +498,10 @@ namespace TFRPStreambox_CSharp
             {
                 AgentNorth.Background = Brushes.LightGreen;
             }
+            else
+            {
+                AgentNorth.Background = Brushes.IndianRed;
+            }
             //alexusnightingale live check
             string alexusnightingaleurl = @"https://api.twitch.tv/kraken/streams/alexusnightingale?client_id=xskte44y2wfqin464ayecyc09nikcj";
 
@@ -500,6 +512,10 @@ namespace TFRPStreambox_CSharp
             if (alexusnightingaler.stream != null && alexusnightingaler.stream.game == "Grand Theft Auto V")
             {
                 alexusnightingale.Background = Brushes.LightGreen;
+            }
+            else
+            {
+                alexusnightingale.Background = Brushes.IndianRed;
             }
             //AndyMilonakis live check
             string andyurl = @"https://api.twitch.tv/kraken/streams/andymilonakis?client_id=xskte44y2wfqin464ayecyc09nikcj";
@@ -512,6 +528,10 @@ namespace TFRPStreambox_CSharp
             {
                 AndyMilonakis.Background = Brushes.LightGreen;
             }
+            else
+            {
+                AndyMilonakis.Background = Brushes.IndianRed;
+            }
             //anthonyz_ live check
             string anturl = @"https://api.twitch.tv/kraken/streams/anthonyz_?client_id=xskte44y2wfqin464ayecyc09nikcj";
 
@@ -522,6 +542,10 @@ namespace TFRPStreambox_CSharp
             if (antr.stream != null && antr.stream.game == "Grand Theft Auto V")
             {
                 anthonyz_.Background = Brushes.LightGreen;
+            }
+            else
+            {
+                anthonyz_.Background = Brushes.IndianRed;
             }
             //BFLY003 live check
             string bflyurl = @"https://api.twitch.tv/kraken/streams/BFLY003?client_id=xskte44y2wfqin464ayecyc09nikcj";
@@ -534,6 +558,10 @@ namespace TFRPStreambox_CSharp
             {
                 BFLY003.Background = Brushes.LightGreen;
             }
+            else
+            {
+                BFLY003.Background = Brushes.IndianRed;
+            }
             //boscoreli live check
             string boscoreliurl = @"https://api.twitch.tv/kraken/streams/boscoreli_gaming?client_id=xskte44y2wfqin464ayecyc09nikcj";
 
@@ -544,6 +572,10 @@ namespace TFRPStreambox_CSharp
             if (boscorelir.stream != null && boscorelir.stream.game == "Grand Theft Auto V")
             {
                 boscoreli_gaming.Background = Brushes.LightGreen;
+            }
+            else
+            {
+                boscoreli_gaming.Background = Brushes.IndianRed;
             }
             //BPZ live check
             string bpzurl = @"https://api.twitch.tv/kraken/streams/BPZ?client_id=xskte44y2wfqin464ayecyc09nikcj";
@@ -556,6 +588,10 @@ namespace TFRPStreambox_CSharp
             {
                 BPZ.Background = Brushes.LightGreen;
             }
+            else
+            {
+                BPZ.Background = Brushes.IndianRed;
+            }
             //BuckkNaked live check
             string buckurl = @"https://api.twitch.tv/kraken/streams/buckknaked?client_id=xskte44y2wfqin464ayecyc09nikcj";
 
@@ -566,6 +602,10 @@ namespace TFRPStreambox_CSharp
             if (buckr.stream != null && buckr.stream.game == "Grand Theft Auto V")
             {
                 BuckkNaked.Background = Brushes.LightGreen;
+            }
+            else
+            {
+                BuckkNaked.Background = Brushes.IndianRed;
             }
             //BurkeBlack live check
             string burkeurl = @"https://api.twitch.tv/kraken/streams/BurkeBlack?client_id=xskte44y2wfqin464ayecyc09nikcj";
@@ -578,6 +618,10 @@ namespace TFRPStreambox_CSharp
             {
                 BurkeBlack.Background = Brushes.LightGreen;
             }
+            else
+            {
+                BurkeBlack.Background = Brushes.IndianRed;
+            }
             //Ch1ckenb0ne live check
             string chicku = @"https://api.twitch.tv/kraken/streams/ch1ckenb0ne?client_id=xskte44y2wfqin464ayecyc09nikcj";
 
@@ -588,6 +632,10 @@ namespace TFRPStreambox_CSharp
             if (chickr.stream != null && chickr.stream.game == "Grand Theft Auto V")
             {
                 Ch1ckenb0ne.Background = Brushes.LightGreen;
+            }
+            else
+            {
+                Ch1ckenb0ne.Background = Brushes.IndianRed;
             }
             //ChiefDas live check
             string chiefu = @"https://api.twitch.tv/kraken/streams/ChiefDas?client_id=xskte44y2wfqin464ayecyc09nikcj";
@@ -600,6 +648,10 @@ namespace TFRPStreambox_CSharp
             {
                 ChiefDas.Background = Brushes.LightGreen;
             }
+            else
+            {
+                ChiefDas.Background = Brushes.IndianRed;
+            }
             //classypax live check
             string classyu = @"https://api.twitch.tv/kraken/streams/ClassyPax?client_id=xskte44y2wfqin464ayecyc09nikcj";
 
@@ -610,6 +662,10 @@ namespace TFRPStreambox_CSharp
             if (classyr.stream != null && classyr.stream.game == "Grand Theft Auto V")
             {
                 ClassyPax.Background = Brushes.LightGreen;
+            }
+            else
+            {
+                ClassyPax.Background = Brushes.IndianRed;
             }
             //cletusbueford live check
             string cletu = @"https://api.twitch.tv/kraken/streams/cletusbeuford?client_id=xskte44y2wfqin464ayecyc09nikcj";
@@ -622,6 +678,10 @@ namespace TFRPStreambox_CSharp
             {
                 CletusBueford.Background = Brushes.LightGreen;
             }
+            else
+            {
+                CletusBueford.Background = Brushes.IndianRed;
+            }
             //CoolidgeHD live check
             string coolu = @"https://api.twitch.tv/kraken/streams/coolidgehd?client_id=xskte44y2wfqin464ayecyc09nikcj";
 
@@ -632,6 +692,10 @@ namespace TFRPStreambox_CSharp
             if (coolr.stream != null && coolr.stream.game == "Grand Theft Auto V")
             {
                 CoolidgeHD.Background = Brushes.LightGreen;
+            }
+            else
+            {
+                CoolidgeHD.Background = Brushes.IndianRed;
             }
             //dasMehdi live check
             string dasu = @"https://api.twitch.tv/kraken/streams/dasmehdi?client_id=xskte44y2wfqin464ayecyc09nikcj";
@@ -644,6 +708,10 @@ namespace TFRPStreambox_CSharp
             {
                 dasMehdi.Background = Brushes.LightGreen;
             }
+            else
+            {
+                dasMehdi.Background = Brushes.IndianRed;
+            }
             //DisbeArex live check
             string disu = @"https://api.twitch.tv/kraken/streams/disbearex?client_id=xskte44y2wfqin464ayecyc09nikcj";
 
@@ -654,6 +722,10 @@ namespace TFRPStreambox_CSharp
             if (disr.stream != null && disr.stream.game == "Grand Theft Auto V")
             {
                 DisbeArex.Background = Brushes.LightGreen;
+            }
+            else
+            {
+                DisbeArex.Background = Brushes.IndianRed;
             }
             //djkwix live check
             string djku = @"https://api.twitch.tv/kraken/streams/djkwix?client_id=xskte44y2wfqin464ayecyc09nikcj";
@@ -666,6 +738,10 @@ namespace TFRPStreambox_CSharp
             {
                 djkwix.Background = Brushes.LightGreen;
             }
+            else
+            {
+                djkwix.Background = Brushes.IndianRed;
+            }
             //DrunkBabyYoshi live check
             string drunu = @"https://api.twitch.tv/kraken/streams/drunkbabyyoshi?client_id=xskte44y2wfqin464ayecyc09nikcj";
 
@@ -676,6 +752,10 @@ namespace TFRPStreambox_CSharp
             if (drunr.stream != null && drunr.stream.game == "Grand Theft Auto V")
             {
                 DrunkBabyYoshi.Background = Brushes.LightGreen;
+            }
+            else
+            {
+                DrunkBabyYoshi.Background = Brushes.IndianRed;
             }
             //Esoluu live check
             string esou = @"https://api.twitch.tv/kraken/streams/esoluu?client_id=xskte44y2wfqin464ayecyc09nikcj";
@@ -688,6 +768,10 @@ namespace TFRPStreambox_CSharp
             {
                 Esoluu.Background = Brushes.LightGreen;
             }
+            else
+            {
+                Esoluu.Background = Brushes.IndianRed;
+            }
             //finkone live check
             string finu = @"https://api.twitch.tv/kraken/streams/finkone?client_id=xskte44y2wfqin464ayecyc09nikcj";
 
@@ -698,6 +782,10 @@ namespace TFRPStreambox_CSharp
             if (finr.stream != null && finr.stream.game == "Grand Theft Auto V")
             {
                 Finkone.Background = Brushes.LightGreen;
+            }
+            else
+            {
+                Finkone.Background = Brushes.IndianRed;
             }
             //Fistofthewalrus live check
             string fisu = @"https://api.twitch.tv/kraken/streams/fistofthewalrus?client_id=xskte44y2wfqin464ayecyc09nikcj";
@@ -710,6 +798,10 @@ namespace TFRPStreambox_CSharp
             {
                 FistofTheWalrus.Background = Brushes.LightGreen;
             }
+            else
+            {
+                FistofTheWalrus.Background = Brushes.IndianRed;
+            }
             //Five0anthO live check
             string fiveu = @"https://api.twitch.tv/kraken/streams/five0antho?client_id=xskte44y2wfqin464ayecyc09nikcj";
 
@@ -720,6 +812,10 @@ namespace TFRPStreambox_CSharp
             if (fiver.stream != null && fiver.stream.game == "Grand Theft Auto V")
             {
                 Five0AnthO.Background = Brushes.LightGreen;
+            }
+            else
+            {
+                Five0AnthO.Background = Brushes.IndianRed;
             }
             //GeeFamous92 live check
             string geeu = @"https://api.twitch.tv/kraken/streams/geefamous92?client_id=xskte44y2wfqin464ayecyc09nikcj";
@@ -732,6 +828,10 @@ namespace TFRPStreambox_CSharp
             {
                 GeeFamous92.Background = Brushes.LightGreen;
             }
+            else
+            {
+                GeeFamous92.Background = Brushes.IndianRed;
+            }
             //GhilleGuyTV live check
             string ghiu = @"https://api.twitch.tv/kraken/streams/ghilleguytv?client_id=xskte44y2wfqin464ayecyc09nikcj";
 
@@ -742,6 +842,10 @@ namespace TFRPStreambox_CSharp
             if (ghir.stream != null && ghir.stream.game == "Grand Theft Auto V")
             {
                 GhilleGuyTV.Background = Brushes.LightGreen;
+            }
+            else
+            {
+                GhilleGuyTV.Background = Brushes.IndianRed;
             }
             //GiantFaffle live check
             string giau = @"https://api.twitch.tv/kraken/streams/giantfaffle?client_id=xskte44y2wfqin464ayecyc09nikcj";
@@ -754,6 +858,10 @@ namespace TFRPStreambox_CSharp
             {
                 GiantFaffle.Background = Brushes.LightGreen;
             }
+            else
+            {
+                GiantFaffle.Background = Brushes.IndianRed;
+            }
             //GloryD live check
             string glou = @"https://api.twitch.tv/kraken/streams/gloryd?client_id=xskte44y2wfqin464ayecyc09nikcj";
 
@@ -764,6 +872,10 @@ namespace TFRPStreambox_CSharp
             if (glor.stream != null && glor.stream.game == "Grand Theft Auto V")
             {
                 GloryD.Background = Brushes.LightGreen;
+            }
+            else
+            {
+                GloryD.Background = Brushes.IndianRed;
             }
             //Harryow live check
             string haru = @"https://api.twitch.tv/kraken/streams/harryow?client_id=xskte44y2wfqin464ayecyc09nikcj";
@@ -776,6 +888,10 @@ namespace TFRPStreambox_CSharp
             {
                 Harryow.Background = Brushes.LightGreen;
             }
+            else
+            {
+                Harryow.Background = Brushes.IndianRed;
+            }
             //Hazard live check
             string hazu = @"https://api.twitch.tv/kraken/streams/hazard?client_id=xskte44y2wfqin464ayecyc09nikcj";
 
@@ -786,6 +902,10 @@ namespace TFRPStreambox_CSharp
             if (hazr.stream != null && hazr.stream.game == "Grand Theft Auto V")
             {
                 Hazard.Background = Brushes.LightGreen;
+            }
+            else
+            {
+                Hazard.Background = Brushes.IndianRed;
             }
             //Hirona live check
             string hiru = @"https://api.twitch.tv/kraken/streams/hirona?client_id=xskte44y2wfqin464ayecyc09nikcj";
@@ -798,6 +918,10 @@ namespace TFRPStreambox_CSharp
             {
                 Hirona.Background = Brushes.LightGreen;
             }
+            else
+            {
+                Hirona.Background = Brushes.IndianRed;
+            }
             //IamSp00n live check
             string iamu = @"https://api.twitch.tv/kraken/streams/iamsp00n?client_id=xskte44y2wfqin464ayecyc09nikcj";
 
@@ -808,6 +932,10 @@ namespace TFRPStreambox_CSharp
             if (iamr.stream != null && iamr.stream.game == "Grand Theft Auto V")
             {
                 IAmSp00n.Background = Brushes.LightGreen;
+            }
+            else
+            {
+                IAmSp00n.Background = Brushes.IndianRed;
             }
             //ImmortalLive live check
             string immu = @"https://api.twitch.tv/kraken/streams/immortallive?client_id=xskte44y2wfqin464ayecyc09nikcj";
@@ -820,6 +948,10 @@ namespace TFRPStreambox_CSharp
             {
                 ImmortalLive.Background = Brushes.LightGreen;
             }
+            else
+            {
+                ImmortalLive.Background = Brushes.IndianRed;
+            }
             //ironmonkeytv live check
             string irou = @"https://api.twitch.tv/kraken/streams/ironmonkeytv?client_id=xskte44y2wfqin464ayecyc09nikcj";
 
@@ -830,6 +962,10 @@ namespace TFRPStreambox_CSharp
             if (iror.stream != null && iror.stream.game == "Grand Theft Auto V")
             {
                 ironmonkeytv.Background = Brushes.LightGreen;
+            }
+            else
+            {
+                ironmonkeytv.Background = Brushes.IndianRed;
             }
             //itzButch live check
             string itzu = @"https://api.twitch.tv/kraken/streams/itzButch?client_id=xskte44y2wfqin464ayecyc09nikcj";
@@ -842,6 +978,10 @@ namespace TFRPStreambox_CSharp
             {
                 itzButch.Background = Brushes.LightGreen;
             }
+            else
+            {
+                itzButch.Background = Brushes.IndianRed;
+            }
             //J_Reed live check
             string jreu = @"https://api.twitch.tv/kraken/streams/J_reed?client_id=xskte44y2wfqin464ayecyc09nikcj";
 
@@ -852,6 +992,10 @@ namespace TFRPStreambox_CSharp
             if (jrer.stream != null && jrer.stream.game == "Grand Theft Auto V")
             {
                 J_Reed.Background = Brushes.LightGreen;
+            }
+            else
+            {
+                J_Reed.Background = Brushes.IndianRed;
             }
             //JAboodyShow live check
             string jabu = @"https://api.twitch.tv/kraken/streams/jaboodyshow?client_id=xskte44y2wfqin464ayecyc09nikcj";
@@ -864,6 +1008,10 @@ namespace TFRPStreambox_CSharp
             {
                 JaboodyShow.Background = Brushes.LightGreen;
             }
+            else
+            {
+                JaboodyShow.Background = Brushes.IndianRed;
+            }
             //jake_terek live check
             string jaku = @"https://api.twitch.tv/kraken/streams/jake_terek?client_id=xskte44y2wfqin464ayecyc09nikcj";
 
@@ -874,6 +1022,10 @@ namespace TFRPStreambox_CSharp
             if (jakr.stream != null && jakr.stream.game == "Grand Theft Auto V")
             {
                 jake_terek.Background = Brushes.LightGreen;
+            }
+            else
+            {
+                jake_terek.Background = Brushes.IndianRed;
             }
             //JmxTwiztid live check
             string jmxu = @"https://api.twitch.tv/kraken/streams/jmxtwiztid?client_id=xskte44y2wfqin464ayecyc09nikcj";
@@ -886,6 +1038,10 @@ namespace TFRPStreambox_CSharp
             {
                 JmxTwiztid.Background = Brushes.LightGreen;
             }
+            else
+            {
+                JmxTwiztid.Background = Brushes.IndianRed;
+            }
             //John782 live check
             string johu = @"https://api.twitch.tv/kraken/streams/john782?client_id=xskte44y2wfqin464ayecyc09nikcj";
 
@@ -896,6 +1052,10 @@ namespace TFRPStreambox_CSharp
             if (johr.stream != null && johr.stream.game == "Grand Theft Auto V")
             {
                 John782.Background = Brushes.LightGreen;
+            }
+            else
+            {
+                John782.Background = Brushes.IndianRed;
             }
             //Jolly__Jess live check
             string jolu = @"https://api.twitch.tv/kraken/streams/Jolly__Jess?client_id=xskte44y2wfqin464ayecyc09nikcj";
@@ -908,6 +1068,10 @@ namespace TFRPStreambox_CSharp
             {
                 Jolly__Jess.Background = Brushes.LightGreen;
             }
+            else
+            {
+                Jolly__Jess.Background = Brushes.IndianRed;
+            }
             //JTtroy live check
             string jttu = @"https://api.twitch.tv/kraken/streams/Jttroy?client_id=xskte44y2wfqin464ayecyc09nikcj";
 
@@ -918,6 +1082,10 @@ namespace TFRPStreambox_CSharp
             if (jttr.stream != null && jttr.stream.game == "Grand Theft Auto V")
             {
                 JTtroy.Background = Brushes.LightGreen;
+            }
+            else
+            {
+                JTtroy.Background = Brushes.IndianRed;
             }
             //kaceytron live check
             string kacu = @"https://api.twitch.tv/kraken/streams/kaceytron?client_id=xskte44y2wfqin464ayecyc09nikcj";
@@ -930,6 +1098,10 @@ namespace TFRPStreambox_CSharp
             {
                 kaceytron.Background = Brushes.LightGreen;
             }
+            else
+            {
+                kaceytron.Background = Brushes.IndianRed;
+            }
             //KaptainKPress live check
             string kapu = @"https://api.twitch.tv/kraken/streams/kaptainkpress?client_id=xskte44y2wfqin464ayecyc09nikcj";
 
@@ -940,6 +1112,10 @@ namespace TFRPStreambox_CSharp
             if (kapr.stream != null && kapr.stream.game == "Grand Theft Auto V")
             {
                 KaptainKpress.Background = Brushes.LightGreen;
+            }
+            else
+            {
+                KaptainKpress.Background = Brushes.IndianRed;
             }
             //KatieRouu live check
             string katu = @"https://api.twitch.tv/kraken/streams/jaboodyshow?client_id=xskte44y2wfqin464ayecyc09nikcj";
@@ -952,6 +1128,10 @@ namespace TFRPStreambox_CSharp
             {
                 KatieRouu.Background = Brushes.LightGreen;
             }
+            else
+            {
+                KatieRouu.Background = Brushes.IndianRed;
+            }
             //Kithicor27 live check
             string kitu = @"https://api.twitch.tv/kraken/streams/kithicor27?client_id=xskte44y2wfqin464ayecyc09nikcj";
 
@@ -962,6 +1142,10 @@ namespace TFRPStreambox_CSharp
             if (kitr.stream != null && kitr.stream.game == "Grand Theft Auto V")
             {
                 Kithicor27.Background = Brushes.LightGreen;
+            }
+            else
+            {
+                Kithicor27.Background = Brushes.IndianRed;
             }
             //LarryX7 live check
             string laru = @"https://api.twitch.tv/kraken/streams/larryx7?client_id=xskte44y2wfqin464ayecyc09nikcj";
@@ -974,6 +1158,10 @@ namespace TFRPStreambox_CSharp
             {
                 LarryX7.Background = Brushes.LightGreen;
             }
+            else
+            {
+                LarryX7.Background = Brushes.IndianRed;
+            }
             //lawdog1096 live check
             string lawu = @"https://api.twitch.tv/kraken/streams/lawdog1096?client_id=xskte44y2wfqin464ayecyc09nikcj";
 
@@ -984,6 +1172,10 @@ namespace TFRPStreambox_CSharp
             if (lawr.stream != null && lawr.stream.game == "Grand Theft Auto V")
             {
                 lawdog1096.Background = Brushes.LightGreen;
+            }
+            else
+            {
+                lawdog1096.Background = Brushes.IndianRed;
             }
             //LiftYourGame live check
             string lifu = @"https://api.twitch.tv/kraken/streams/lifeyourgame?client_id=xskte44y2wfqin464ayecyc09nikcj";
@@ -996,6 +1188,10 @@ namespace TFRPStreambox_CSharp
             {
                 KatieRouu.Background = Brushes.LightGreen;
             }
+            else
+            {
+                KatieRouu.Background = Brushes.IndianRed;
+            }
             //loveANG3L live check
             string lovu = @"https://api.twitch.tv/kraken/streams/loveang3l?client_id=xskte44y2wfqin464ayecyc09nikcj";
 
@@ -1006,6 +1202,10 @@ namespace TFRPStreambox_CSharp
             if (lovr.stream != null && lovr.stream.game == "Grand Theft Auto V")
             {
                 loveANF3L.Background = Brushes.LightGreen;
+            }
+            else
+            {
+                loveANF3L.Background = Brushes.IndianRed;
             }
             //mart1n_g live check
             string maru = @"https://api.twitch.tv/kraken/streams/mart1n_g?client_id=xskte44y2wfqin464ayecyc09nikcj";
@@ -1018,6 +1218,10 @@ namespace TFRPStreambox_CSharp
             {
                 mart1n_g.Background = Brushes.LightGreen;
             }
+            else
+            {
+                mart1n_g.Background = Brushes.IndianRed;
+            }
             //MiltonTPike1 live check
             string milu = @"https://api.twitch.tv/kraken/streams/MiltonTPike1?client_id=xskte44y2wfqin464ayecyc09nikcj";
 
@@ -1028,6 +1232,10 @@ namespace TFRPStreambox_CSharp
             if (milr.stream != null && milr.stream.game == "Grand Theft Auto V")
             {
                 MiltonTPike1.Background = Brushes.LightGreen;
+            }
+            else
+            {
+                MiltonTPike1.Background = Brushes.IndianRed;
             }
             //MintsTV live check
             string minu = @"https://api.twitch.tv/kraken/streams/mintstv?client_id=xskte44y2wfqin464ayecyc09nikcj";
@@ -1040,6 +1248,10 @@ namespace TFRPStreambox_CSharp
             {
                 MintsTV.Background = Brushes.LightGreen;
             }
+            else
+            {
+                MintsTV.Background = Brushes.IndianRed;
+            }
             //MrMoonsHouse live check
             string mrmu = @"https://api.twitch.tv/kraken/streams/mrmoonshouse?client_id=xskte44y2wfqin464ayecyc09nikcj";
 
@@ -1050,6 +1262,10 @@ namespace TFRPStreambox_CSharp
             if (mrmr.stream != null && mrmr.stream.game == "Grand Theft Auto V")
             {
                 MrMoonsHouse.Background = Brushes.LightGreen;
+            }
+            else
+            {
+                MrMoonsHouse.Background = Brushes.IndianRed;
             }
             //MsDeathRabbit live check
             string msdu = @"https://api.twitch.tv/kraken/streams/msdeathrabbit?client_id=xskte44y2wfqin464ayecyc09nikcj";
@@ -1062,6 +1278,10 @@ namespace TFRPStreambox_CSharp
             {
                 MsDeathRabbit.Background = Brushes.LightGreen;
             }
+            else
+            {
+                MsDeathRabbit.Background = Brushes.IndianRed;
+            }
             //OG_BluePill live check
             string ogu = @"https://api.twitch.tv/kraken/streams/og_bluepill?client_id=xskte44y2wfqin464ayecyc09nikcj";
 
@@ -1072,6 +1292,10 @@ namespace TFRPStreambox_CSharp
             if (ogr.stream != null && ogr.stream.game == "Grand Theft Auto V")
             {
                 Og_BluePill.Background = Brushes.LightGreen;
+            }
+            else
+            {
+                Og_BluePill.Background = Brushes.IndianRed;
             }
             //PENTAhearth live check
             string penu = @"https://api.twitch.tv/kraken/streams/pentahearth?client_id=xskte44y2wfqin464ayecyc09nikcj";
@@ -1084,6 +1308,10 @@ namespace TFRPStreambox_CSharp
             {
                 PENTAhearth.Background = Brushes.LightGreen;
             }
+            else
+            {
+                PENTAhearth.Background = Brushes.IndianRed;
+            }
             //Pinky live check
             string pinu = @"https://api.twitch.tv/kraken/streams/Pinky?client_id=xskte44y2wfqin464ayecyc09nikcj";
 
@@ -1094,6 +1322,10 @@ namespace TFRPStreambox_CSharp
             if (pinr.stream != null && pinr.stream.game == "Grand Theft Auto V")
             {
                 Pinky.Background = Brushes.LightGreen;
+            }
+            else
+            {
+                Pinky.Background = Brushes.IndianRed;
             }
             //PmsProxy live check
             string pmsu = @"https://api.twitch.tv/kraken/streams/pmsproxy?client_id=xskte44y2wfqin464ayecyc09nikcj";
@@ -1106,6 +1338,10 @@ namespace TFRPStreambox_CSharp
             {
                 PmsProxy.Background = Brushes.LightGreen;
             }
+            else
+            {
+                PmsProxy.Background = Brushes.IndianRed;
+            }
             //PorkMarshmallow live check
             string poru = @"https://api.twitch.tv/kraken/streams/porkmarshmallow?client_id=xskte44y2wfqin464ayecyc09nikcj";
 
@@ -1116,6 +1352,10 @@ namespace TFRPStreambox_CSharp
             if (porr.stream != null && porr.stream.game == "Grand Theft Auto V")
             {
                 PorkMarshmallow.Background = Brushes.LightGreen;
+            }
+            else
+            {
+                PorkMarshmallow.Background = Brushes.IndianRed;
             }
             //PrimusPalus live check
             string priu = @"https://api.twitch.tv/kraken/streams/primuspalus?client_id=xskte44y2wfqin464ayecyc09nikcj";
@@ -1128,6 +1368,10 @@ namespace TFRPStreambox_CSharp
             {
                 PrimusPalus.Background = Brushes.LightGreen;
             }
+            else
+            {
+                PrimusPalus.Background = Brushes.IndianRed;
+            }
             //Purrluna live check
             string puru = @"https://api.twitch.tv/kraken/streams/purrluna?client_id=xskte44y2wfqin464ayecyc09nikcj";
 
@@ -1139,6 +1383,10 @@ namespace TFRPStreambox_CSharp
             {
                 Purrluna.Background = Brushes.LightGreen;
             }
+            else
+            {
+                Purrluna.Background = Brushes.IndianRed;
+            }
             //Pydrex live check
             string pydu = @"https://api.twitch.tv/kraken/streams/Pydrex?client_id=xskte44y2wfqin464ayecyc09nikcj";
 
@@ -1149,6 +1397,10 @@ namespace TFRPStreambox_CSharp
             if (pydr.stream != null && pydr.stream.game == "Grand Theft Auto V")
             {
                 Pydrex.Background = Brushes.LightGreen;
+            }
+            else
+            {
+                Pydrex.Background = Brushes.IndianRed;
             }
 
             Refresh.Background = Brushes.LightGreen;

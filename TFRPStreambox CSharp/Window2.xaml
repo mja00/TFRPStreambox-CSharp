@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TFRPStreambox_CSharp"
         mc:Ignorable="d"
-        Title="The FamilyRP Streambox" Height="588" Width="840">
+        Title="The FamilyRP Streambox v1.1.0.2" Height="588" Width="840">
     <Grid Background="#FF252526">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="55*"/>
